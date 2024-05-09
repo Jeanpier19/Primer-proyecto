@@ -39,4 +39,29 @@ curl_close($ch);
 </main>
 
 
+<style>
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section {
+        text-align: center;
+    }
+
+    hgroup {
+        flex-direction: column;
+        text-align: start;
+    }
+
+    img {
+        max-width: 90%;
+    }
+    pre {
+        display: none;
+    }
+</style>
+
+
 <!-- (curl EnlaceAPI) : Para llamar una API -->
